@@ -1,6 +1,6 @@
 ---
 layout: default
-transition: slide-up
+transition: slide-left
 ---
 # Vue Query 基本用法
 
@@ -51,7 +51,7 @@ const { data: todos, isLoading, isError } = useQuery({
             <div class="text-xs">data 會自動更新，無需 ref()</div>
         </div>
         <div class="benefit">
-            <div class="text-blue-400 text-xs font-bold">內建智能快取</div>
+            <div class="text-blue-400 text-xs font-bold">內建快取</div>
             <div class="text-xs">相同 queryKey 共享資料</div>
         </div>
         <div class="benefit">

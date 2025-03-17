@@ -21,7 +21,7 @@ transition: fade
 <div class="summary-card">
   <div class="summary-icon">🔄</div>
   <div class="summary-title">優化請求策略</div>
-  <div class="summary-desc">透過 staleTime、gcTime 智能控制快取生命週期</div>
+  <div class="summary-desc">透過 staleTime、gcTime 控制快取生命週期</div>
 </div>
 </div>
 

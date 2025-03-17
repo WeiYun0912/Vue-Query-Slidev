@@ -13,12 +13,12 @@ Vue Query 是一個<span class="text-blue-500 font-bold">伺服器狀態管理</
 <div>
 <div v-click class="feature-card">
   <div class="text-lg font-bold mb-2 text-blue-500">自動管理請求狀態</div>
-  <div>自動處理 loading、error、success 狀態，減少樣板程式碼</div>
+  <div>自動處理 <span v-mark.red="3">loading、error、success</span> 狀態，減少 boilerplate code</div>
 </div>
 
 <div v-click class="feature-card mt-4">
   <div class="text-lg font-bold mb-2 text-blue-500">提供快取機制</div>
-  <div>快取避免重複請求，可依需求客製化快取策略</div>
+  <div>快取<span v-mark.red="3">避免重複請求</span>，可依需求客製化快取策略</div>
 </div>
 </div>
 

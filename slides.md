@@ -26,6 +26,13 @@ layout: cover
   </span>
 </div>
 
+---
+src: ./pages/without-vue-query.md
+---
+
+---
+src: ./pages/why-vue-query-2.md
+---
 
 ---
 src: ./pages/what-is-vue-query.md
@@ -45,11 +52,6 @@ src: ./pages/vue-query-lifecycle.md
 
 ---
 src: ./pages/vue-query-refetch.md
----
-
-
----
-src: ./pages/why-vue-query-2.md
 ---
 
 ---

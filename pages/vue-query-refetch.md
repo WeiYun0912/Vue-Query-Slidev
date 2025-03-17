@@ -23,7 +23,7 @@ transition: fade
   
   <div class="tip mt-2">
     <div class="text-xs font-bold">提示</div>
-    <div class="text-xs mt-1">設為 Infinity 讓資料永不過期</div>
+    <div class="text-xs mt-1">設為 <span v-mark.circle.orange="4">Infinity</span> 讓資料永不過期</div>
   </div>
 </div>
 </div>
@@ -43,7 +43,7 @@ transition: fade
   
   <div class="tip mt-2">
     <div class="text-xs font-bold">使用場景</div>
-    <div class="text-xs mt-1">資料變動頻率低或用戶體驗優先時關閉</div>
+    <div class="text-xs mt-1">資料變動頻率低或使用者體驗優先時關閉</div>
   </div>
 </div>
 </div>

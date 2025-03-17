@@ -36,7 +36,7 @@ transition: fade-out
   <div class="text-sm">
     <ul class="pl-4">
       <li>資料是新鮮的，可靠</li>
-      <li>不會自動重新請求</li>
+      <li>不會<span v-mark.red="3">自動重新請求</span></li>
       <li>依據 staleTime 轉變為 Stale</li>
       <li>需手動 refetch 才會更新</li>
     </ul>
@@ -53,7 +53,7 @@ transition: fade-out
   <div class="text-sm">
     <ul class="pl-4">
       <li>資料已經「不新鮮」</li>
-      <li>當元件重新載入時更新</li>
+      <li>當<span v-mark.red="3">元件重新載入</span>時更新</li>
       <li>當頁面重新聚焦時更新</li>
       <li>依然可用，但會嘗試更新</li>
     </ul>
@@ -70,8 +70,8 @@ transition: fade-out
   <div class="text-sm">
     <ul class="pl-4">
       <li>目前無元件使用此資料</li>
-      <li>依據 gcTime 進入回收機制</li>
-      <li>回收前仍存在於快取中</li>
+      <li>依據 <span v-mark.red="3">gcTime</span> 進入回收機制</li>
+      <li><span v-mark.red="3">回收前仍存在於快取中</span></li>
       <li>再次使用時可立即取用</li>
     </ul>
   </div>
